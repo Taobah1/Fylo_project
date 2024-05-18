@@ -229,7 +229,8 @@ footer .logo img {
   align-items: center;
   gap: 20px;
 }
-.footer-icon {
+.footer-icon,
+.footer-icon-b {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -240,7 +241,8 @@ button:hover {
   background-color: rgb(14, 159, 207);
 }
 
-.footer-icon a {
+.footer-icon a,
+.footer-icon-b a {
   text-decoration: none;
 
   color: #f9f8fe;
@@ -249,6 +251,13 @@ button:hover {
 .footer-icon a:hover,
 .img-icon a:hover {
   color: rgb(14, 159, 207);
+}
+
+.img-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
 }
 
 .img-icon img {
@@ -272,7 +281,6 @@ button:hover {
 
 @media (max-width: 768px) {
   .container {
-    /* background-color: red; */
     margin: 30px;
   }
 
@@ -453,16 +461,25 @@ button:hover {
   }
 
   .footer-content {
-    background-color: red;
     display: flex;
     justify-content: start;
     align-items: center;
     gap: 20px;
   }
-  .footer-icon {
+  .footer-icon,
+  .footer-icon-b {
     display: flex;
     flex-direction: column;
     justify-content: start;
     gap: 10px;
+  }
+
+  .footer-icon-b {
+    margin-top: 30px;
+  }
+
+  .img-icon {
+    justify-content: center;
+    margin-top: 30px;
   }
 }
