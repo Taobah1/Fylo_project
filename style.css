@@ -26,6 +26,10 @@ nav {
   gap: 8px;
 }
 
+.logo h3 {
+  font-size: 50px;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -98,7 +102,7 @@ section img {
   align-items: center;
 
   background-color: #f9f8fe;
-  border-radius: 50px;
+  border-radius: 50px 50px 0 0;
 }
 
 .illustration-2 {
@@ -143,14 +147,19 @@ section img {
   gap: 10px;
 }
 .testimony img {
+  width: 40px;
   border-radius: 50px;
+}
+
+.testimony h4 {
+  font-size: 20px;
 }
 
 article {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 30px;
+  /* margin-top: 30px; */
   padding: 60px 80px 80px 40px;
   color: #f9f8fe;
   background-color: #575989;
@@ -284,8 +293,8 @@ button:hover {
     margin: 30px;
   }
 
-  .logo h1 {
-    font-size: 25px;
+  .logo h3 {
+    font-size: 26px;
   }
 
   section {
@@ -299,16 +308,27 @@ button:hover {
     gap: 20px;
   }
 
+  .navbar p {
+    font-size: 14px;
+  }
+
   .fylo {
     width: 100%;
     text-align: center;
   }
 
   .fylo p {
-    font-size: 22px;
+    font-size: 18px;
+    line-height: 30px;
   }
   .image {
+    margin-top: 100px;
+    margin-bottom: 50px;
     display: block;
+    width: 300px;
+  }
+
+  .image img {
     width: 300px;
   }
 
@@ -338,9 +358,15 @@ button:hover {
   }
 
   .illustration-2 {
+    margin-top: 100px;
     display: block;
     padding: 30px;
     padding-top: 130px;
+    margin-bottom: 40px;
+  }
+
+  .illustration-2 img {
+    width: 300px;
   }
 
   .section-b {
@@ -355,14 +381,14 @@ button:hover {
   }
   .content h1 {
     margin-bottom: 20px;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
   }
 
   .content p {
-    font-size: 25px;
-    line-height: 35px;
-    text-align: center;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: start;
   }
 
   .img {
@@ -370,35 +396,49 @@ button:hover {
   }
 
   .arrow-icon {
+    margin-top: 20px;
     text-align: center;
+  }
+
+  .arrow-icon a {
+    text-decoration: none;
+    border-bottom: 1px solid green;
+    padding: 5px;
   }
 
   .card {
     width: 100%;
     padding: 30px;
+    /* margin: 20px; */
   }
 
   .card p {
-    font-size: 20px;
+    font-size: 14px;
   }
 
   .testimony {
     gap: 5px;
   }
 
+  .testimony img {
+    width: 30px;
+  }
+
+  .testimony h4 {
+    font-size: 12px;
+  }
+
   .testimony p {
-    font-size: 14px;
+    font-size: 8px;
+  }
+
+  .section-b {
+    padding-bottom: 60px;
   }
 
   article {
     display: block;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 30px;
-    padding: 60px 80px 80px 40px;
-    color: #f9f8fe;
-    background-color: #575989;
-    padding: 90px;
+    padding: 80px 40px;
   }
 
   .access {
@@ -407,18 +447,18 @@ button:hover {
 
   .access h3 {
     margin-bottom: 25px;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
   }
 
   .access p {
-    font-size: 22px;
+    font-size: 16px;
     text-align: center;
-    line-height: 35px;
+    line-height: 25px;
   }
 
   .starter {
-    margin-top: 10px;
+    margin-top: 30px;
     width: 100%;
     gap: 0px;
   }
